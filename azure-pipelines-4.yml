@@ -31,7 +31,3 @@ stages:
   - job: QADeployJob
     steps: 
     - bash: echo "deploy to QA"
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
